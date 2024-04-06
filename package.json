@@ -1,0 +1,22 @@
+{
+  "name": "phaser-space-invaders",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/lodash.throttle": "^4.1.9",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "phaser": "^3.80.1"
+  }
+}
